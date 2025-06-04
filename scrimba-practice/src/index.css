@@ -13,3 +13,6 @@ h1 {
   width: 40px;
 }
 
+.nav-list {
+  list-style: none;
+}
