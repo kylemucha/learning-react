@@ -5,9 +5,13 @@ const root = createRoot(document.getElementById("root"))
 /**
  * Challenge:
  * 
- * - Add a `nav` > `ul` > `li` (x3). The 3 items should say:
- *   "Pricing", "About", and "Contact"
+ * Using flexbox, line up the `li`s horizontally and put them inline
+ * with the React logo.
+ * 
+ * NOTE: for practice's sake, don't select any
+ * elements, but use classes for all styling.
  */
+
 
 
 function OmmyFacts () {
@@ -22,7 +26,7 @@ function OmmyFacts () {
 
 function Header () {
     return (
-        <header>
+        <header className="header-wrapper">
             <img src="react-logo.png" width="40px" alt="React logo" />
             <nav>
               <ul className="nav-list">
@@ -40,7 +44,7 @@ function MainContent () {
     <main>
     <h1>Reasons Why Ommy is the Best Pelican!</h1>
     <ol>
-      <li>Ommy FLy!</li>
+      <li>Ommy Fly!</li>
       <li>Ommy love pelow!</li>
       <li>ommy sleep now...</li>
     </ol>

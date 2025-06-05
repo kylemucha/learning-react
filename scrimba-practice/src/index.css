@@ -15,4 +15,13 @@ h1 {
 
 .nav-list {
   list-style: none;
+  display: flex;
+  gap: 20px;
+  font-size: 1.1rem;
+}
+
+.header-wrapper {
+  display: flex;
+  align-items: center; 
+  justify-content: space-between;
 }
