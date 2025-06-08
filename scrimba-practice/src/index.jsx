@@ -15,7 +15,6 @@ function OmmyFacts () {
     )
 }
 
-
 root.render(
     <OmmyFacts />
 )
