@@ -28,6 +28,6 @@ body {
 .logo-group {
     display: flex;
     align-items: center;
-    text-decoration: none; /* optional, removes underline */
-    color: inherit; /* optional, inherits color from nav-bar */
+    text-decoration: none; /* removes underline */
+    color: inherit; /* inherits color from nav-bar */
 }
