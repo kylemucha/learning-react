@@ -2,26 +2,32 @@
     font-family: 'Inter', sans-serif;
 }
 
-html, body {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-}
-
 header {
-    background: #21222A;
+    background-color: #21222A;
     width: 100%;
-    padding: 20px 0;
-    position: relative;
-    top: 0;
-    left: 0;
 }
 
 body {
+    margin: 0;
     background:#282d35; 
+}
+
+.nav-bar {
+    color: #61DAFB;
+    display: flex;
+    align-items: center;
+    padding: 20px;
 }
 
 .nav-icon {
     width: 28.93px;
     height: 28.93px;
+    margin: 5px;
+}
+
+.logo-group {
+    display: flex;
+    align-items: center;
+    text-decoration: none; /* optional, removes underline */
+    color: inherit; /* optional, inherits color from nav-bar */
 }
