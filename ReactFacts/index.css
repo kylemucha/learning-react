@@ -31,3 +31,12 @@ body {
     text-decoration: none; /* removes underline */
     color: inherit; /* inherits color from nav-bar */
 }
+
+.main-content {
+    margin-left: 20px;
+    color: white;
+}
+
+.list-items li::marker {
+    color: #61DAFB;
+}
