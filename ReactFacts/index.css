@@ -12,6 +12,16 @@ body {
     background:#282d35; 
 }
 
+ul {
+    margin-top: 40px;
+}
+
+ul li {
+    font-size: 20px;
+    margin-bottom: 20px; 
+    font-style: normal;
+}
+
 .nav-bar {
     color: #61DAFB;
     display: flex;
@@ -32,6 +42,11 @@ body {
     color: inherit; /* inherits color from nav-bar */
 }
 
+.main-header {
+    font-size: 40px;
+    margin-top: 50px;
+}
+
 .main-content {
     margin-left: 20px;
     color: white;
@@ -39,4 +54,14 @@ body {
 
 .list-items li::marker {
     color: #61DAFB;
+    size: 20px; 
+}
+
+.half-logo {
+    width: 350px;
+    height: 350px; 
+    position: absolute;
+    bottom: 350px;
+    right: 0;
+    transform: translateX(50%); /* shifts half the width to the right */
 }
