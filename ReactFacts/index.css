@@ -8,6 +8,7 @@ header {
 }
 
 body {
+    
     margin: 0;
     background:#282d35; 
 }
@@ -61,7 +62,7 @@ ul li {
     width: 350px;
     height: 350px; 
     position: absolute;
-    bottom: 350px;
+    bottom: 320px;
     right: 0;
     transform: translateX(50%);
 }

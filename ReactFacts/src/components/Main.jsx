@@ -8,7 +8,7 @@ export default function Main () {
                 <li>Was originally created by Jordan Walke</li>
                 <li>Has well over 200K stars on GitHub </li>
                 <li>Is maintained by Meta</li>
-                <li>Powers thousands of enterprise apps, including mobile apps</li>
+                <li>Powers thousands of enterprise apps, including mobile apps </li>
            </ul>
         </div>
         <img className="half-logo" src="/gray-react-logo.png" alt="Half React Logo Faded in Background" />
