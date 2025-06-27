@@ -63,5 +63,5 @@ ul li {
     position: absolute;
     bottom: 350px;
     right: 0;
-    transform: translateX(50%); /* shifts half the width to the right */
+    transform: translateX(50%);
 }
