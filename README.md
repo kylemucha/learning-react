@@ -1,3 +1,3 @@
 # learning react
-1. react facts
+project 1 - react facts
 - a static webpage displaying fun facts about react
