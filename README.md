@@ -1,2 +1,3 @@
-# React Facts
-First project for learning React. A static web page of fun facts about React!
+# learning react
+1. react facts
+- a static webpage displaying fun facts about react
